@@ -1,17 +1,6 @@
-# macOS
+# Archivos generados automáticamente
 .DS_Store
-
-# Windows
 Thumbs.db
-desktop.ini
-
-# Node.js (si usas Node.js)
-node_modules/
-
-# Python (si usas Python)
-__pycache__/
-*.py[cod]
-
-# Archivos del sistema
-.idea/
-.vscode/
+.vs/
+obj/
+bin/
