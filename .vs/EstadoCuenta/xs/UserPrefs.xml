@@ -1,0 +1,113 @@
+﻿<Properties StartupConfiguration="{C6758293-3438-479B-96CE-DF3303057F66}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.API.EstadoCuenta.APPLICATION PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EstadoCuenta.WEB/Controllers/TransaccionesController.cs">
+    <Files>
+      <File FileName="EstadoCuenta.WEB/Models/EstadoCuentaVM.cs" />
+      <File FileName="EstadoCuenta.WEB/Views/_ViewStart.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Views/_ViewImports.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Views/Home/Privacy.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Views/Shared/_Layout.cshtml" />
+      <File FileName="EstadoCuenta.WEB/wwwroot/js/Usuarios.js" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Middleware/IoC.cs" />
+      <File FileName="EstadoCuenta.WEB/Controllers/UsuariosController.cs" />
+      <File FileName="EstadoCuenta.WEB/Services/ApiService.cs" Line="118" Column="1" />
+      <File FileName="EstadoCuenta.WEB/Services/IApiService.cs" Line="15" Column="2" />
+      <File FileName="EstadoCuenta.CORE/DTOs/UsuariosDto.cs" />
+      <File FileName="EstadoCuenta.WEB/Program.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Data/Usuarios.cs" />
+      <File FileName="EstadoCuenta.CORE/Interfaces/IUsuariosServices.cs" />
+      <File FileName="EstadoCuenta.CORE/InterfacesRepositories/IUsuariosRepository.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Repositories/UsuariosRepository.cs" />
+      <File FileName="EstadoCuenta.API/Program.cs" />
+      <File FileName="EstadoCuenta.CORE/InterfacesRepositories/IUnitOfWork.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Repositories/UnitOfWork.cs" />
+      <File FileName="EstadoCuenta.API/Controllers/UsuariosController.cs" />
+      <File FileName="EstadoCuenta.CORE/Services/UsuariosServices.cs" />
+      <File FileName="EstadoCuenta.API/WeatherForecast.cs" />
+      <File FileName="EstadoCuenta.WEB/Models/UsuariosVM.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.317/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="EstadoCuenta.WEB/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Controllers/EstadoTarjetaController.cs" Line="30" Column="1" />
+      <File FileName="EstadoCuenta.API/Controllers/EstadoTarjetaController.cs" />
+      <File FileName="EstadoCuenta.CORE/DTOs/EstadoCuentaDto.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerEstadoCuentaQuery.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerEstadoCuentaHandler.cs" />
+      <File FileName="EstadoCuenta.CORE/Interfaces/IEstadoCuentaService.cs" />
+      <File FileName="EstadoCuenta.CORE/Services/EstadoCuentaService.cs" />
+      <File FileName="EstadoCuenta.CORE/InterfacesRepositories/IEstadoCuentaRepository.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Repositories/EstadoCuentaRepository.cs" />
+      <File FileName="EstadoCuenta.WEB/Controllers/MovimientosController.cs" Line="34" Column="38" />
+      <File FileName="EstadoCuenta.WEB/Views/Movimientos/Compras.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Views/Movimientos/Pagos.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Models/MovimientoVM.cs" />
+      <File FileName="EstadoCuenta.WEB/Views/Usuarios/Index.cshtml" />
+      <File FileName="EstadoCuenta.WEB/Views/EstadoTarjeta/EstadoDeCuenta.cshtml" />
+      <File FileName="EstadoCuenta.API/Controllers/MovimientosController.cs" />
+      <File FileName="EstadoCuenta.CORE/DTOs/MovimientoDto.cs" />
+      <File FileName="EstadoCuenta.API/Commands/CrearMovimientoCommand.cs" />
+      <File FileName="EstadoCuenta.API/Commands/CrearMovimientoHandler.cs" />
+      <File FileName="EstadoCuenta.CORE/InterfacesRepositories/IMovimientosRepository.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Repositories/MovimientosRepository.cs" />
+      <File FileName="EstadoCuenta.CORE/Services/MovimientosServices.cs" />
+      <File FileName="EstadoCuenta.CORE/Interfaces/IMovimientosServices.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerUsuariosHandler.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Data/DapperContext.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerUsuariosQuery.cs" />
+      <File FileName="EstadoCuenta.API/Controllers/TransaccionesController.cs" />
+      <File FileName="EstadoCuenta.CORE/DTOs/TransaccionesDto.cs" Line="7" Column="30" />
+      <File FileName="EstadoCuenta.WEB/Models/TransaccionesVM.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerTransaccionesQuery.cs" />
+      <File FileName="EstadoCuenta.API/Queries/ObtenerTransaccionesHandler.cs" />
+      <File FileName="EstadoCuenta.CORE/Interfaces/ITransaccionesServices.cs" />
+      <File FileName="EstadoCuenta.CORE/Services/TransaccionesServices.cs" />
+      <File FileName="EstadoCuenta.CORE/InterfacesRepositories/ITransaccionesRepository.cs" />
+      <File FileName="EstadoCuenta.INFRASTRUCTURE/Repositories/TransaccionesRepository.cs" />
+      <File FileName="EstadoCuenta.WEB/Controllers/TransaccionesController.cs" Line="28" Column="2" />
+      <File FileName="EstadoCuenta.WEB/Views/Transaciones/Transacciones.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EstadoCuenta" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="EstadoCuenta.CORE" expanded="True">
+                <Node name="DTOs" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="InterfacesRepositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="EstadoCuenta.INFRASTRUCTURE" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Middleware" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="MVC" expanded="True">
+              <Node name="EstadoCuenta.WEB">
+                <Node name="Controllers" expanded="True">
+                  <Node name="TransaccionesController.cs" selected="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MVC.EstadoCuenta.WEB PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/Repositories/UsuariosRepository.cs" relfile="EstadoCuenta.INFRASTRUCTURE/Repositories/UsuariosRepository.cs" line="35" column="1" />
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/Repositories/MovimientosRepository.cs" relfile="EstadoCuenta.INFRASTRUCTURE/Repositories/MovimientosRepository.cs" line="33" column="1" />
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.WEB/Controllers/MovimientosController.cs" relfile="EstadoCuenta.WEB/Controllers/MovimientosController.cs" line="40" column="1" />
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/Services/MovimientosServices.cs" relfile="EstadoCuenta.CORE/Services/MovimientosServices.cs" line="26" column="1" />
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/Repositories/MovimientosRepository.cs" relfile="EstadoCuenta.INFRASTRUCTURE/Repositories/MovimientosRepository.cs" line="22" column="1" />
+      <Breakpoint file="/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.WEB/Controllers/TransaccionesController.cs" relfile="EstadoCuenta.WEB/Controllers/TransaccionesController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

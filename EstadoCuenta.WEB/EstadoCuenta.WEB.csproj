@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EstadoCuenta.API\EstadoCuenta.API.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Bases\" />
+    <None Remove="Views\Usuarios\" />
+    <None Remove="Views\EstadoTarjeta\" />
+    <None Remove="Views\Movimientos\" />
+    <None Remove="Views\Transacciones\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Bases\" />
+    <Folder Include="Views\Usuarios\" />
+    <Folder Include="wwwroot\Imag\" />
+    <Folder Include="Views\EstadoTarjeta\" />
+    <Folder Include="Views\Movimientos\" />
+    <Folder Include="Views\Transacciones\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Imag\" />
+    <Content Remove="Views\Usuarios\EstadoDeCuenta.cshtml" />
+    <Content Remove="Views\Usuarios\Template.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Usuarios\EstadoDeCuenta.cs">
+      <DependentUpon>EstadoDeCuenta.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

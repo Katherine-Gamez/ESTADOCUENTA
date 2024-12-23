@@ -1,0 +1,81 @@
+﻿@model IEnumerable<EstadoCuenta.WEB.Models.UsuarioVM>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Estilos{
+    <link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css" rel=" stylesheet" />
+
+    <style>
+        .btn-exportar-excel {
+            background-color: #198754 !important;
+            color: white !important;
+        }
+
+        .btn-exportar-pdf {
+            background-color: #dc3545 !important;
+            color: white !important;
+        }
+
+        .btn-exportar-print {
+            background-color: #00a7c9 !important;
+            color: white !important;
+        }
+    </style>
+}
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h4>Lista de Usuarios</h4>
+        </div>
+        <div class="card-body">
+            <table id="contacto" class="table table-hover table-responsive table-striped">
+                <thead>
+                    <tr class="text-center">
+                        <th scope="col">#</th>
+                        <th scope="col">Titular</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col">Estado de Cuenta</th>
+                        <th scope="col">Transacciones Mes</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row" class="text-center">@item.UsuarioId</th> <!-- Alinea el número de usuario al centro -->
+                            <td>@Html.DisplayFor(modelItem => item.NombreCompleto)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                            <td class="text-center">
+                                <a href="@Url.Action("EstadoDeCuenta","EstadoTarjeta", new { id = item.UsuarioId })">
+                                    <img src="~/Imag/flecha.png" alt="Detalles" width="20" height="20" style="display: block; margin: 0 auto;" />
+                                </a>
+                            </td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Transaccion","Transacciones", new { id = item.UsuarioId })">
+                                    <img src="~/Imag/flecha.png" alt="Detalles" width="20" height="20" style="display: block; margin: 0 auto;" />
+                                </a>
+                            </td>
+                            <td></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+ 
+    th, td {
+        text-align: center; 
+    }
+    td img {
+            display: block;
+            margin: 0 auto;
+     }
+</style>

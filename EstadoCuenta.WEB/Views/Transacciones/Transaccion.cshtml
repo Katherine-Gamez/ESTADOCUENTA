@@ -1,0 +1,94 @@
+﻿@model IEnumerable<EstadoCuenta.WEB.Models.TransaccionesVM>
+
+@{
+    ViewData["Title"] = "Transacciones del mes";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h4>@ViewData["Title"]</h4>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="transaccionesTable" class="table table-hover table responsive table stripped">
+                    @if (Model == null || !Model.Any())
+                    {
+                        <thead>
+                            <tr>
+                                <td colspan="6">No hay transacciones disponibles</td>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    }
+                    else
+                    {
+                        <thead>
+                            <tr>
+                                <th># Tarjeta</th>
+                                <th>Titular</th>
+                                <th>Tipo</th>
+                                <th>Monto</th>
+                                <th>Descripción</th>
+                                <th>Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var transaccion in Model)
+                            {
+                                <tr>
+                                    <td>@transaccion.Tarjeta</td>
+                                    <td>@transaccion.Titular</td>
+                                    <td>@transaccion.Tipo</td>
+                                    <td>@transaccion.Monto.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"))</td>
+                                    <td>@transaccion.Descripcion</td>
+                                    <td>@transaccion.Fecha.ToString("dd/MM/yyyy")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+      <script>
+        $(document).ready(function() {
+            $('#transaccionesTable').DataTable({
+                searching: true,  
+                paging: true,    
+                info: false,     
+                lengthChange: false, 
+                dom: 'ft', 
+                language: {
+                    search: "Buscar: "
+                }
+            });
+        });
+    </script>
+}
+<style>
+    table, th, td {
+        border: none;
+    }
+    thead th {
+        border-bottom: 2px solid #000; 
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    tbody tr {
+        border-bottom: none;
+    }
+</style>
