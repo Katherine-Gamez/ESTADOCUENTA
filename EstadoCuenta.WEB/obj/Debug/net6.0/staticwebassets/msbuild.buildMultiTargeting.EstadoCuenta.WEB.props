@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/EstadoCuenta.WEB.props" />
-</Project>

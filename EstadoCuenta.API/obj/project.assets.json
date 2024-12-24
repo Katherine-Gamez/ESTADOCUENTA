@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "AutoMapper/13.0.1": {
         "type": "package",
         "dependencies": {
@@ -21,12 +21,12 @@
       "Dapper/2.1.35": {
         "type": "package",
         "compile": {
-          "lib/net5.0/Dapper.dll": {
+          "lib/net7.0/Dapper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Dapper.dll": {
+          "lib/net7.0/Dapper.dll": {
             "related": ".xml"
           }
         }
@@ -292,12 +292,12 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
@@ -308,12 +308,12 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -592,12 +592,12 @@
           "Microsoft.OpenApi": "1.6.22"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -611,12 +611,12 @@
           "Swashbuckle.AspNetCore.Swagger": "7.2.0"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -624,12 +624,12 @@
       "Swashbuckle.AspNetCore.SwaggerUI/7.2.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -895,7 +895,7 @@
       },
       "EstadoCuenta.CORE/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MediatR": "12.4.1"
         },
@@ -908,7 +908,7 @@
       },
       "EstadoCuenta.INFRASTRUCTURE/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Dapper": "2.1.35",
@@ -2564,7 +2564,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "EstadoCuenta.CORE >= 1.0.0",
       "EstadoCuenta.INFRASTRUCTURE >= 1.0.0",
       "MediatR >= 12.4.1",
@@ -2573,36 +2573,38 @@
     ]
   },
   "packageFolders": {
-    "/Users/kathygamez/.nuget/packages/": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj",
       "projectName": "EstadoCuenta.APPLICATION",
-      "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj",
-      "packagesPath": "/Users/kathygamez/.nuget/packages/",
-      "outputPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/obj/",
+      "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kathygamez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj": {
-              "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj"
+            "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj"
             },
-            "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj": {
-              "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj"
+            "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj"
             }
           }
         }
@@ -2611,11 +2613,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "MediatR": {
             "target": "Package",
@@ -2641,20 +2648,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[6.0.31, 6.0.31]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2663,7 +2656,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2675,7 +2668,7 @@
       "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requiere MediatR (>= 11.0.0 && < 12.0.0), pero la versión MediatR 12.4.1 ya se resolvió.",
       "libraryId": "MediatR",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]

@@ -1,37 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj": {}
+    "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj": {}
   },
   "projects": {
-    "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj": {
+    "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj",
         "projectName": "EstadoCuenta.APPLICATION",
-        "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/EstadoCuenta.APPLICATION.csproj",
-        "packagesPath": "/Users/kathygamez/.nuget/packages/",
-        "outputPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.API/obj/",
+        "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\EstadoCuenta.APPLICATION.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kathygamez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj": {
-                "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj"
+              "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj"
               },
-              "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj": {
-                "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj"
+              "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj"
               }
             }
           }
@@ -40,11 +42,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -70,20 +77,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,31 +85,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj": {
+    "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj",
         "projectName": "EstadoCuenta.CORE",
-        "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj",
-        "packagesPath": "/Users/kathygamez/.nuget/packages/",
-        "outputPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/obj/",
+        "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kathygamez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -124,11 +120,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -146,49 +147,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj": {
+    "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj",
         "projectName": "EstadoCuenta.INFRASTRUCTURE",
-        "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/EstadoCuenta.INFRASTRUCTURE.csproj",
-        "packagesPath": "/Users/kathygamez/.nuget/packages/",
-        "outputPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.INFRASTRUCTURE/obj/",
+        "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\EstadoCuenta.INFRASTRUCTURE.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.INFRASTRUCTURE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kathygamez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj": {
-                "projectPath": "/Users/kathygamez/Projects/EstadoCuenta/EstadoCuenta.CORE/EstadoCuenta.CORE.csproj"
+              "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Proyectos\\ESTADOCUENTA\\EstadoCuenta.CORE\\EstadoCuenta.CORE.csproj"
               }
             }
           }
@@ -197,11 +191,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -239,22 +238,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
